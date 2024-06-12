@@ -178,7 +178,7 @@ ORDER BY
     hte.customer_id,
     hte.order_date; 
 
-
+-- Using CTE --
 WITH ranked_orders AS (
     SELECT
         customer_id,
